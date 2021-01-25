@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+$color-gray: #999;
+$color-white: #e9e9e9;
+$color-tar: #666888;
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    text-align: center;
+    background: $color-gray;
+    padding: 30px;
+    color: $color-white;
+
+    #link {
+        a {
+            color: $color-white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 0 60px;
+            transition: 0.5s;
+            display: inline-block;
+
+            &:hover {
+                color: $color-tar;
+                transform: scale(1.8);
+            }
+        }
+    }
+
+    #social {
+        a img {
+            width: 35px;
+            height: 35px;
+            padding: 0 10px;
+            transition: 0.5s;
+
+            &:hover {
+                transform: scale(1.5);
+                filter: invert(43%) sepia(30%) saturate(371%) hue-rotate(198deg) brightness(89%) contrast(88%);
+            }
+        }
+    }
+
+}
+
+
+.logo {
+    font-size: 32px !important;
+    transition: 0.8s;
+    font-family: 'Coda Caption', sans-serif;
+
+    &:hover {
+        transform: scale(1.5);
+    }
+}
