@@ -34,6 +34,8 @@ nav {
                 transform: scale(1.8);
             }
         }
+        
+        
     }
 
     #social {
@@ -47,6 +49,10 @@ nav {
                 transform: scale(1.5);
                 filter: invert(43%) sepia(30%) saturate(371%) hue-rotate(198deg) brightness(89%) contrast(88%);
             }
+        }
+        .ig {
+            width: 30px !important;
+            height: 30px !important;
         }
     }
 
@@ -70,6 +76,7 @@ nav {
         height: 100vh;
         text-align: center;
         color: #e9e9e9;
+        background-size: cover;
 
         h1 {
             padding: 300px 0 100px;
