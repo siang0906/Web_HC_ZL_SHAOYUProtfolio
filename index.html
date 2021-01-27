@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>少宇 個人網站</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -13,30 +15,69 @@
 
         </div>
         <div id="link">
-            <a href="">分頁</a>
-            <a href="">分頁</a>
+            <a href="">作品</a>
+            <a href="">商品</a>
             <a href="" class="logo">SAHOYU</a>
-            <a href="">分頁</a>
-            <a href="">分頁</a>
+            <a href="">商品</a>
+            <a href="">聯絡</a>
         </div>
         <div id="social">
             <a href=""><img src="./img/facebook-new.png" alt="FACEBOOK"></a>
-            <a href=""><img src="./img/instagram-201-599421.webp" alt="INSTAGRAM"></a>
+            <a href=""><img class="IG" src="./img/instagram-201-599421.webp" alt="INSTAGRAM"></a>
         </div>
     </nav>
 
     <!-- 輪播圖 -->
-    <div class="banner1">
-        <h1>標題一</h1>
-        <h2>標題二</h2>
+    <div id="banner">
+        <div class="banner1"></div>
+            <h1>平面設計</h1>
+            <h2>大型海報、品牌LOGO、視覺行銷服務</h2>
+        </div>
+        <div class="banner2">
+            <h1>名片設計</h1>
+            <h2>個人品牌、公司行號名片</h2>
+        </div>
+        <div class="banner3">
+            <h1>網頁設計</h1>
+            <h2>前端切版客製化服務</h2>
+        </div>
     </div>
-    <div class="banner2">
-        <h1>標題一</h1>
-        <h2>標題二</h2>
-    </div>
-    <div class="banner3">
-        <h1>標題一</h1>
-        <h2>標題二</h2>
-    </div>
+
+    <!-- 最新消息 -->
+
+    <section #id="news">
+        <h1 class="title-big">最新消息</h1>
+        <div class="news-content">
+            <div class="news-card">
+                <img src="" alt="">
+                <h3>【前端教學】如何做出動態按鈕</h3>
+                <p>如何設計常見的網頁動態按鈕效果呢?網頁的按鈕效果這麼多種應該如何選擇以及該使用哪個語言處理效果?</p>
+                <button class="btn">查看更多</button>
+            </div>
+        </div>
+        <div class="news-content">
+            <div class="news-card">
+                <img src="" alt="">
+                <h3>【遊戲 Vlog】2D 橫向卷軸遊戲</h3>
+                <p>如何在一個禮拜開發 2D 橫向卷軸遊戲，從無到有在一個禮拜有辦法做出來嗎？</p>
+                <button class="btn">查看更多</button>
+            </div>
+        </div>
+        <div class="news-content">
+            <div class="news-card">
+                <img src="" alt="">
+                <h3>【遊戲產品】動物派對</h3>
+                <p>最新上架遊戲【動物派對】，趕快來 Steam 上看看並且找親朋好友一起玩玩這款友情破壞遊戲喔。</p>
+                <button class="btn">查看更多</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
