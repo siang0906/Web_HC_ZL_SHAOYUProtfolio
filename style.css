@@ -72,7 +72,7 @@ nav #social .ig {
   height: 100vh;
   text-align: center;
   color: #e9e9e9;
-  background-size: cover;
+  background-size: 100vh;
 }
 
 .banner1 h1 {
@@ -86,7 +86,7 @@ nav #social .ig {
   height: 100vh;
   text-align: center;
   color: #e9e9e9;
-  background-size: cover;
+  background-size: 100vh;
 }
 
 .banner2 h1 {
@@ -100,7 +100,7 @@ nav #social .ig {
   height: 100vh;
   text-align: center;
   color: #e9e9e9;
-  background-size: cover;
+  background-size: 100vh;
 }
 
 .banner3 h1 {
